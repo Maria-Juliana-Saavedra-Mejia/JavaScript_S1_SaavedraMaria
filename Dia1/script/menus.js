@@ -44,7 +44,6 @@ export function menuTrainer(){
         " 6. Antonio Vega \n"+
         " 7. Salir del Programa\n"+
         "==================================\n")
-     
 }
 
 // Menu coordinador
@@ -61,5 +60,4 @@ export function menuCoordinador(){
         " 6. Eliminar modulos \n"+
         " 7. Salir del Programa\n"+
         "==================================\n")
-     
 }

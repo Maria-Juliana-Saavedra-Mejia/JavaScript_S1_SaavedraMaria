@@ -51,9 +51,6 @@ export function inscripcion() {
 export function IngresarPerfil(){
     let id= prompt("Digite su numero de Identificación 🎂");
     }
-         
-
-
 
 // salir de campus
 export function salir(){
