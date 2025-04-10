@@ -27,7 +27,6 @@ export function menuEstudiante(){
         " 1. Inscripción \n"+
         " 2. Ingresar al Perfil \n"+
         " 3. Salir de Campus \n"+
-        " 4. Salir del Programa \n"+
         "==================================\n")
 }
 

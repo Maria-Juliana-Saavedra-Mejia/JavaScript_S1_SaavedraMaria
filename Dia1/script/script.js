@@ -15,15 +15,21 @@ let n=prompt("Digite su elección de como quiere ingresar 👀")
 if (n==1){
     // muestra del menu camper//
     menus.menuEstudiante();
-    let n1=prompt("Digite el número de lo que quiere realizar ✔")
-    if (n1==1){
-        campers.inscripcion()
+    let n1=prompt("Digite el número de lo que quiere realizar ✔");
+    if(n1==1){
+        campers.inscripcion();
+    }else if(n1==2){
+        campers.IngresarPerfil();
+    }else if(n1==3){
+        campers.salir();
+    }else {
+        alert("Eleccion Incorrecta")
     }
 
-}else if (n==2){
+} else if(n==2){
     // muestra del menu trainer// 
     menus.menuTrainer();
-    let n2=prompt("Digite el número correspondiente a su perfil 😆")
+    let n2=prompt("Digite el número correspondiente a su perfil 😆");
 }else if (n==3){
     // muestra del menu Coordinador// 
     menus.menuCoordinador();

@@ -43,10 +43,22 @@ export function inscripcion() {
         }
     }
     );
-
+    // ventana de gracias por su inscripción
     alert("Gracias por realizar la inscripción 😃");
 }
 
+// Funcion de ingresar al perfil
+export function IngresarPerfil(){
+    let id= prompt("Digite su numero de Identificación 🎂");
+    }
+         
+
+
+
+// salir de campus
+export function salir(){
+    alert("Gracias por ingresar a la pagina de Campuslands Vuelve pronto 😉")
+}
 
 let campers = [
     {
@@ -190,32 +202,5 @@ let campers = [
         }
     }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //Desarrollado por : Maria Juliana Saavedra Mejia - C.C.1.097.100.816
