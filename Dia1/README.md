@@ -5,11 +5,10 @@ En este repositorio se encuentra el trabajo Introducción a JavaScript Camper Ma
 
 | Modulo | Contenido |
 |--|--|
-| index |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA10/index.html|
-| Imágenes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA10/img|
-| Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA10/style|
-| Fuentes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA10/fuentes|
-| Link Pagina |https://maria-juliana-saavedra-mejia.github.io/HTML_S1_SaavedraMaria/DIA10/|
+| index |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/blob/master/Dia1/index.html|
+| Script |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia1/script|
+| Dia1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia1/dia1|
+
 
 # **Instalación**
 
@@ -20,11 +19,10 @@ Para el correcto funcionamiento del presente se requiere la instalación de alg�
 > [**Index**]
 Se encuentra el código fuente en HTML.
 
-> [**Imagenes**]
-Se encuentra la carpeta en la que hay cada una de las imágenes usadas en el proyecto.
+> [**Script**]
+Se encuentra la carpeta en la que hay cada uno de los archivos en el lenguaje de programación JavaScript. 
 
-> [**Style**]
-Se encuentra el código de CSS.
+> [**Dia1**]
+Se encuentra la explicacion realizada en clase. 
 
-> [**Fuentes**]
-Se encuentra la tipografia usada en el proyecto.
+
