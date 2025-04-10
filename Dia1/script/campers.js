@@ -2,18 +2,52 @@
 // Ejercicios DIA 1
 // #####################################
 
-export function inscripcion(){
-    idn=prompt("Digite su numero de Identificación 🎂");
-    nombre=prompt("Digite sus nombre 🤳");
-    apellido=prompt("Digite sus apellidos 😜");
-    direccion=prompt("Ingrese su dirección 🐱‍🏍");
-    acudiente=prompt("Ingrese el nombre de su acudiente 🐱‍👓");
-    numcel=prompt("Ingrese su número de celular 👍");
-    numfijo=prompt("Ingrese su número de teléfono fijo 😉");
-    curso="";
+// Funcion de la Inscripción
+export function inscripcion() {
+    // Se ingresan los datos al sistema
+    const idn = prompt("Digite su numero de Identificación 🎂");
+    const nombre = prompt("Digite sus nombre 🤳");
+    const apellido = prompt("Digite sus apellidos 😜");
+    const direccion = prompt("Ingrese su dirección 🐱‍🏍");
+    const acudiente = prompt("Ingrese el nombre de su acudiente 🐱‍👓");
+    const numcel = prompt("Ingrese su número de celular 👍");
+    const numfijo = prompt("Ingrese su número de teléfono fijo 😉");
+    const curso = "";
+    campers.push({
+        "ID": idn,
+        "Nombre": nombre,
+        "Apellido": apellido,
+        "Direccion": direccion,
+        "Acudiente": acudiente,
+        "Numero de celular": numcel,
+        "Numero de telefono fijo": numfijo,
+        "Estado": {
+            "En proceso": false,
+            "Inscrito": true,
+            "Aprobado": true,
+            "Rechazado": false,
+            "Cursando": false,
+            "Graduado": false,
+            "Expulsado": false,
+            "Retirado": false
+        },
+        "Riesgo": false,
+        "grupo": curso,
+        "notas": {
+            "modulo1": 0.0,
+            "modulo2": 0.0,
+            "modulo3": 0.0,
+            "modulo4": 0.0,
+            "modulo5": 0.0
+        }
+    }
+    
+    )
+    const fin = prompt("Gracias por realizar la inscripción 😃");
 }
 
-let campers=[
+
+let campers = [
     {
         "ID": 6677889501,
         "Nombre": "Andrés Felipe",
