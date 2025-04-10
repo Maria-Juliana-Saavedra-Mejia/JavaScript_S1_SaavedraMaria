@@ -13,6 +13,7 @@ export function inscripcion() {
     const numcel = prompt("Ingrese su número de celular 👍");
     const numfijo = prompt("Ingrese su número de teléfono fijo 😉");
     const curso = "";
+    // Se agregan los datos al sistema
     campers.push({
         "ID": idn,
         "Nombre": nombre,
@@ -41,9 +42,9 @@ export function inscripcion() {
             "modulo5": 0.0
         }
     }
-    
-    )
-    const fin = prompt("Gracias por realizar la inscripción 😃");
+    );
+
+    alert("Gracias por realizar la inscripción 😃");
 }
 
 
