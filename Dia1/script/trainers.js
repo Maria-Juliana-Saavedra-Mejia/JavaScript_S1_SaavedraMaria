@@ -28,12 +28,36 @@ export function Pedro(){
                 numerito=prompt("Ingrese la nota #"+i)
             }
         }else if(cosita==3){
-
-        }
-        
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
 
     }else if (pedrito==2){
         alert("Bienvenido a la clase P_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (pedrito==3){
         alert("Este es su horario");
@@ -61,6 +85,12 @@ export function Pedro(){
         alert("Eleccion Incorrecta");
     }
 }
+
+
+
+
+
+
 export function Miguel(){
     alert(
         "Bienvenido trainer Miguel Rodriguez\n"+
@@ -71,9 +101,51 @@ export function Miguel(){
     )
     let migue=prompt("Digite el numero de su elección 😃");
     if (migue==1){
-        alert("Bienvenido a la clase P_1");
+        alert("Bienvenido a la clase M_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }else if (migue==2){
-        alert("Bienvenido a la clase P_2");
+        alert("Bienvenido a la clase M_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (migue==3){
         alert("Este es su horario");
@@ -101,6 +173,12 @@ export function Miguel(){
         alert("Eleccion Incorrecta");
     }
 }
+
+
+
+
+
+
 export function Juan() {
     alert(
         "Bienvenido trainer Juan Nariño\n"+
@@ -111,9 +189,51 @@ export function Juan() {
     )
     let juancho=prompt("Digite el numero de su elección 😃");
     if (juancho==1){
-        alert("Bienvenido a la clase P_1");
+        alert("Bienvenido a la clase J_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }else if (juancho==2){
-        alert("Bienvenido a la clase P_2");
+        alert("Bienvenido a la clase J_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (juancho==3){
         alert("Este es su horario");
@@ -141,6 +261,13 @@ export function Juan() {
         alert("Eleccion Incorrecta");
     }
 }
+
+
+
+
+
+
+
 export function Santiago() {
     alert(
         "Bienvenido trainer Santiago Melo\n"+
@@ -151,9 +278,51 @@ export function Santiago() {
     )
     let santi=prompt("Digite el numero de su elección 😃");
     if (santi==1){
-        alert("Bienvenido a la clase P_1");
+        alert("Bienvenido a la clase S_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }else if (santi==2){
-        alert("Bienvenido a la clase P_2");
+        alert("Bienvenido a la clase S_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (santi==3){
         alert("Este es su horario");
@@ -181,6 +350,13 @@ export function Santiago() {
         alert("Eleccion Incorrecta");
     }
 }
+
+
+
+
+
+
+
 export function carlos() {
     alert(
         "Bienvenido trainer Carlos Rueda\n"+
@@ -191,9 +367,51 @@ export function carlos() {
     )
     let carlos=prompt("Digite el numero de su elección 😃");
     if (carlos==1){
-        alert("Bienvenido a la clase P_1");
+        alert("Bienvenido a la clase C_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }else if (carlos==2){
-        alert("Bienvenido a la clase P_2");
+        alert("Bienvenido a la clase C_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (carlos==3){
         alert("Este es su horario");
@@ -222,6 +440,12 @@ export function carlos() {
     }
 }
 
+
+
+
+
+
+
 export function Antonio() {
     alert(
         "Bienvenida trainer Antonio Vega\n"+
@@ -232,9 +456,51 @@ export function Antonio() {
     )
     let anton=prompt("Digite el numero de su elección 😃");
     if (anton==1){
-        alert("Bienvenido a la clase P_1");
+        alert("Bienvenido a la clase A_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }else if (anton==2){
-        alert("Bienvenido a la clase P_2");
+        alert("Bienvenido a la clase A_2");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else{
+            alert("Eleccion Incorrecta");
+        }  
     }
     else if (anton==3){
         alert("Este es su horario");
