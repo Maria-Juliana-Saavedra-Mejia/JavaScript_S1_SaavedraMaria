@@ -13,6 +13,24 @@ export function Pedro(){
     let pedrito=prompt("Digite el numero de su elección 😃");
     if (pedrito==1){
         alert("Bienvenido a la clase P_1");
+        alert("¿Que nota desea ingresar?");
+        cosita=prompt(
+            "1. Proyecto \n"+
+            "2. Examen \n"+
+            "3. Otros \n"
+            )
+        if(cosita==1){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==2){
+            for(i=1; i<30; i=i+1){
+                numerito=prompt("Ingrese la nota #"+i)
+            }
+        }else if(cosita==3){
+
+        }
+        
 
     }else if (pedrito==2){
         alert("Bienvenido a la clase P_2");
@@ -20,21 +38,21 @@ export function Pedro(){
     else if (pedrito==3){
         alert("Este es su horario");
         alert(
-            "Grupo: "(trainer[0]["grupo"])+"\n"+
-            "Salon: "(trainer[0]["Salon"])+"\n"+
-            "Fecha de Inicio :"(trainer[0]["Fecha de inicio"])+"\n"+
-            "Fecha de finalizacion: "(trainer[0]["Fecha de finalizacion"])+"\n"+
-            "Horario: "(trainer[0]["Horario"])+"\n"+
-            "Ruta: "(trainer[0]["Ruta"])+"\n"+
-            "Modulos: "(trainer[0]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[0]["grupo"])+"\n"+
+            "Salon: "+(trainer[0]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[0]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[0]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[0]["Horario"])+"\n"+
+            "Ruta: "+(trainer[0]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[0]["Modulos"])+"\n"+
             "Grupo: "+(trainer[1]["grupo"])+"\n"+
-            "Salon: "(trainer[1]["Salon"])+"\n"+
-            "Fecha de Inicio :"(trainer[1]["Fecha de inicio"])+"\n"+
-            "Fecha de finalizacion: "(trainer[1]["Fecha de finalizacion"])+"\n"+
-            "Horario: " (trainer[1]["Horario"])+"\n"+
-            "Ruta: "(trainer[1]["Ruta"])+"\n"+
-            "Modulos: "(trainer[1]["Modulos"])
-        )
+            "Salon: "+(trainer[1]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[1]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[1]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[1]["Horario"])+"\n"+
+            "Ruta: "+(trainer[1]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[1]["Modulos"])
+        );
     }
     else if (pedrito==4){
         alert("Vuelva Pronto 😃");
@@ -59,6 +77,22 @@ export function Miguel(){
     }
     else if (migue==3){
         alert("Este es su horario");
+        alert(
+            "Grupo: "+(trainer[2]["grupo"])+"\n"+
+            "Salon: "+(trainer[2]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[2]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[2]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[2]["Horario"])+"\n"+
+            "Ruta: "+(trainer[2]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[2]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[3]["grupo"])+"\n"+
+            "Salon: "+(trainer[3]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[3]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[3]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[3]["Horario"])+"\n"+
+            "Ruta: "+(trainer[3]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[3]["Modulos"])
+        );
     }
     else if (migue==4){
         alert("Vuelva Pronto 😃");
@@ -83,6 +117,22 @@ export function Juan() {
     }
     else if (juancho==3){
         alert("Este es su horario");
+        alert(
+            "Grupo: "+(trainer[4]["grupo"])+"\n"+
+            "Salon: "+(trainer[4]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[4]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[4]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[4]["Horario"])+"\n"+
+            "Ruta: "+(trainer[4]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[4]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[5]["grupo"])+"\n"+
+            "Salon: "+(trainer[5]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[5]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[5]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[5]["Horario"])+"\n"+
+            "Ruta: "+(trainer[5]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[5]["Modulos"])
+        );
     }
     else if (juancho==4){
         alert("Vuelva Pronto 😃");
@@ -107,6 +157,22 @@ export function Santiago() {
     }
     else if (santi==3){
         alert("Este es su horario");
+        alert(
+            "Grupo: "+(trainer[6]["grupo"])+"\n"+
+            "Salon: "+(trainer[6]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[6]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[6]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[6]["Horario"])+"\n"+
+            "Ruta: "+(trainer[6]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[6]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[7]["grupo"])+"\n"+
+            "Salon: "+(trainer[7]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[7]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[7]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[7]["Horario"])+"\n"+
+            "Ruta: "+(trainer[7]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[7]["Modulos"])
+        );
     }
     else if (santi==4){
         alert("Vuelva Pronto 😃");
@@ -131,6 +197,22 @@ export function carlos() {
     }
     else if (carlos==3){
         alert("Este es su horario");
+        alert(
+            "Grupo: "+(trainer[8]["grupo"])+"\n"+
+            "Salon: "+(trainer[8]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[8]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[8]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[8]["Horario"])+"\n"+
+            "Ruta: "+(trainer[8]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[8]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[9]["grupo"])+"\n"+
+            "Salon: "+(trainer[9]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[9]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[9]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[9]["Horario"])+"\n"+
+            "Ruta: "+(trainer[9]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[9]["Modulos"])
+        );
     }
     else if (carlos==4){
         alert("Vuelva Pronto 😃");
@@ -156,6 +238,22 @@ export function Antonio() {
     }
     else if (anton==3){
         alert("Este es su horario");
+        alert(
+            "Grupo: "+(trainer[10]["grupo"])+"\n"+
+            "Salon: "+(trainer[10]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[10]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[10]["Fecha de finalizacion"])+"\n"+
+            "Horario: "+(trainer[10]["Horario"])+"\n"+
+            "Ruta: "+(trainer[10]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[10]["Modulos"])+"\n"+
+            "Grupo: "+(trainer[11]["grupo"])+"\n"+
+            "Salon: "+(trainer[11]["Salon"])+"\n"+
+            "Fecha de Inicio :"+(trainer[11]["Fecha de inicio"])+"\n"+
+            "Fecha de finalizacion: "+(trainer[11]["Fecha de finalizacion"])+"\n"+
+            "Horario: " +(trainer[11]["Horario"])+"\n"+
+            "Ruta: "+(trainer[11]["Ruta"])+"\n"+
+            "Modulos: "+(trainer[11]["Modulos"])
+        );
     }
     else if (anton==4){
         alert("Vuelva Pronto 😃");

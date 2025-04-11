@@ -50,6 +50,7 @@ export function inscripcion() {
 // Funcion de ingresar al perfil
 export function IngresarPerfil(){
     let id= prompt("Digite su numero de Identificación 🎂");
+    prompt("Bienvenido Camper")
     }
 
 // salir de campus
