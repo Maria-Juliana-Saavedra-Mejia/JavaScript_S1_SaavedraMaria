@@ -90,4 +90,64 @@ body{
     border: 0.1vw solid black ;
     background-color: gray;
 }
-.
+#fondo__formBusqueda--prev{
+    position: absolute;
+    top: 44.3vw;
+    left: 40%;
+    width: 10%;
+    height: 5%;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    border-top-left-radius: 0.7vw;
+    border-top-right-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    border-bottom-right-radius: 0.7vw;
+    font-size: 1.5vw;
+}
+#fondo__formBusqueda--next{
+    position: absolute;
+    top: 44.3vw;
+    left: 52%;
+    width: 10%;
+    height: 5%;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    border-top-left-radius:  0.7vw;
+    border-top-right-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    border-bottom-right-radius: 0.7vw;
+    font-size: 1.5vw;
+}
+.fondo__formBusqueda--borde2{
+    position: absolute;
+    top: 45.2vw;
+    left: 51.8%;
+    width: 10%;
+    height: 4%;
+    background-color: rgb(54, 51, 51);
+    color: white;
+    border-top-left-radius:  0.7vw;
+    border-top-right-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    border-bottom-right-radius: 0.7vw;
+}
+.fondo__formBusqueda--borde3{
+    position: absolute;
+    top: 45.2vw;
+    left: 39.8%;
+    width: 10%;
+    height: 4%;
+    background-color: rgb(54, 51, 51);
+    color: white;
+    border-top-left-radius: 0.7vw;
+    border-top-right-radius: 0.7vw;
+    border-bottom-left-radius: 0.7vw;
+    border-bottom-right-radius: 0.7vw;
+
+}
+.nada{
+    position: absolute;
+    font-size: 1.5vw;
+    top: 17vw;
+    left: 20%;
+}
