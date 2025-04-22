@@ -1,0 +1,21 @@
+/* Importaccion de la fuente */
+@font-face {
+    font-family: Letras;
+    src: url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39');
+}
+
+body{
+    background: linear-gradient( skyblue, rgb(160, 210, 229), white);
+    background-repeat: no-repeat;
+}
+
+.fondo__img{
+    width: 100%;
+    height: 100%;
+}
+.fondo__img--1{
+    width: 35%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 35%;
+}
