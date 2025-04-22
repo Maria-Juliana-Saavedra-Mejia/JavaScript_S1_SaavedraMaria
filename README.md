@@ -6,6 +6,10 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 | Modulo | Contenido |
 |--|--|
 | DIA1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia1|
+| DIA3 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia3|
+| DIA REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/DiaRepaso1|
+| API REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRepaso|
+
 
 # **Instalación**
 
@@ -15,3 +19,12 @@ Para el correcto funcionamiento del presente se requiere la instalación de alg�
 
 > [**Dia1**]
 Se encuentran las primeras anotaciones sobre JavaScript y el primer trabajo realizado. 
+
+> [**Dia3**]
+Se encuentra la explicacion de como realizar CRUD en JavaScript . 
+
+> [**Dia-Repaso**]
+Se encuentran el ejemplo de API'S. 
+
+> [**Api-Repaso**]
+Se encuentran el trabajo de la PokeApi. 

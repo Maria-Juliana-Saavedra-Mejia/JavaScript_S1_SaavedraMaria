@@ -1,12 +1,18 @@
 /* Importaccion de la fuente */
-@font-face {
-    font-family: 'Letras';
-    src: url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39');
-}
 
 body{
-    background: linear-gradient( skyblue, rgb(160, 210, 229), white);
+    background: linear-gradient( skyblue, white);
     background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+    text-transform: capitalize;
 }
 
 .fondo__img{
@@ -35,7 +41,6 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oxanium', cursive;
     font-size: 4vw;
     text-align: right;
     top: 16vw;
@@ -55,17 +60,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oxanium', cursive;
-    text-transform: capitalize;
     font-size: 2vw;
     text-align: rigth;
     top: 17.5vw;
     left: 14vw;
 }
-.fondo__formBusqueda--formtext{
+#fondo__formBusqueda--formtext{
     position: absolute;
-    font-family: 'Oxanium', cursive;
-    text-transform: capitalize;
     font-size: 2vw;
     top: 36vw;
     left: 40vw;
@@ -76,12 +77,10 @@ body{
     border-bottom-left-radius: 0.5vw;
     border-bottom-right-radius: 0.5vw;
     border: 0.1vw solid black ;
+    color: black;
 }
 .fondo__formBusqueda--borde{
     position: absolute;
-    font-family: 'Oxanium', cursive;
-    text-transform: capitalize;
-    font-size: 1.8vw;
     top: 36.5vw;
     left: 39.5vw;
     height: 4vw;
