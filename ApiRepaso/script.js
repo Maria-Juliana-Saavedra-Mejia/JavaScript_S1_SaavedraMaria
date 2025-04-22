@@ -1,7 +1,7 @@
 
 function fetchPoke(){
     let xhr = new XMLHttpRequest();
-    let numPokemon=52;
+    let numPokemon=200;
     let link= `https://pokeapi.co/api/v2/pokemon/${numPokemon}`;
     //Primer paso es crear(abrir) la solicitud
     xhr.open('GET',link,true);
@@ -25,8 +25,8 @@ function displayPoke(data){
         informacionHTML.innerHTML=`<p>Esto no funcionó :sadfeis:</p>`;
     }else{
         informacionHTML.innerHTML=`
-        <img src=${data["sprites"]["other"]["showdown"]["front_default"]} />
-        <p>${data["id"]}. ${data["name"]}</p>
-        `
+        <img class="foto" src=${data["sprites"]["other"]["showdown"]["front_default"]} />
+        <p class="id">${data["id"]}.</p>
+        <p class="name"> ${data["name"]}</p>`
     }
 }

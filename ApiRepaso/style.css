@@ -1,6 +1,6 @@
 /* Importaccion de la fuente */
 @font-face {
-    font-family: Letras;
+    font-family: 'Letras';
     src: url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39');
 }
 
@@ -18,4 +18,78 @@ body{
     height: 100%;
     margin-top: 1%;
     margin-left: 35%;
+}
+
+.fondo__poquemonInfo{
+    position: relative;
+    text-align: left;
+    width: 25%;
+    height: 21vw;
+    top: -41vw;
+    left: 37.5vw;
+}
+
+.id{
+    position: absolute;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+    font-size: 4vw;
+    text-align: right;
+    top: 16vw;
+    width: 15vw;
+    left: -2vw;
+}
+
+.foto{
+    position: relative;
+    width: 30%;
+    top: 5vw;
+    left: 35%;
+    box-sizing: border-box;
+}
+.name{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+    text-transform: capitalize;
+    font-size: 2vw;
+    text-align: rigth;
+    top: 17.5vw;
+    left: 14vw;
+}
+.fondo__formBusqueda--formtext{
+    position: absolute;
+    font-family: 'Oxanium', cursive;
+    text-transform: capitalize;
+    font-size: 2vw;
+    top: 36vw;
+    left: 40vw;
+    height: 4vw;
+    width: 23vw;
+    border-top-left-radius:  0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    border: 0.1vw solid black ;
+}
+.fondo__formBusqueda--borde{
+    position: absolute;
+    font-family: 'Oxanium', cursive;
+    text-transform: capitalize;
+    font-size: 1.8vw;
+    top: 36.5vw;
+    left: 39.5vw;
+    height: 4vw;
+    width: 23vw;
+    border-top-left-radius:  0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    border: 0.1vw solid black ;
+    background-color: gray;
 }
