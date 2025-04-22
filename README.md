@@ -7,6 +7,7 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 |--|--|
 | DIA1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia1|
 | DIA3 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia3|
+| DIA3 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia4|
 | DIA REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/DiaRepaso1|
 | API REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRepaso|
 
