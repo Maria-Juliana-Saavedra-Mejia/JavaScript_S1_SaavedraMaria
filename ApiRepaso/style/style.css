@@ -35,7 +35,7 @@ body{
     left: 37.5vw;
 }
 
-.id{
+#id{
     position: absolute;
     color: grey;
     margin: 0;
