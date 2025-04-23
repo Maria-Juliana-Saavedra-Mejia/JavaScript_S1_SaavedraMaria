@@ -1,3 +1,6 @@
+// #####################################
+// Ejercicios APIS
+// #####################################
 function BuscarPoke(){
     let pokes = new XMLHttpRequest();
     let numPokemon = document.getElementById("fondo__formBusqueda--formtext").value;
@@ -98,3 +101,5 @@ const inputss= document.getElementById("fondo__formBusqueda--next");
 inputss.addEventListener("click",function(){
      MasId()
 })
+
+//Desarrollado por : Maria Juliana Saavedra Mejia - T.I.1.097.100.816
