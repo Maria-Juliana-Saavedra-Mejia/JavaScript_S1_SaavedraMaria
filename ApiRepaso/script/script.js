@@ -8,7 +8,7 @@ function BuscarPoke(){
     let link= `https://pokeapi.co/api/v2/pokemon/${numPokemon}`;
     if (numPokemon==0){
         numPokemon=1
-        let link= `https://pokeapi.co/api/v2/pokemon/${numPokemon}`;
+        link= `https://pokeapi.co/api/v2/pokemon/${numPokemon}`;
         //Primer paso es crear(abrir) la solicitud
         pokes.open('GET',link,true);
         //Segundo paso es decir qué hacer con esa solicitud
@@ -46,8 +46,6 @@ function BuscarPoke(){
 BuscarPoke();
 
 function MenosId(){
-    BuscarPoke();
-    
     let input = document.getElementById("fondo__formBusqueda--formtext");
     let numPokemonoculto = parseInt(input.value);
     if(numPokemonoculto > 1) {
@@ -86,6 +84,7 @@ function printPoke(data){
 
 //Cuando le de enter va a tomar ese valor o nombre y va a usarlo para buscar dentro de la api
 //Buscando asi el pokemon en esta para luego mostrarlo
+
 const input= document.getElementById("fondo__formBusqueda--formtext");
 input.addEventListener("keydown",function(event){
     if (event.key==="Enter"){
