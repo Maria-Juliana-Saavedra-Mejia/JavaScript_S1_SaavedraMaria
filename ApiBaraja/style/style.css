@@ -20,6 +20,8 @@ body{
     left: 28%;
     top: 4vw;
 }
+
+
 .JuegoPoker__ParteEstetica--text{
     position: absolute;
     top: 4vw;
@@ -51,7 +53,7 @@ body{
     width: 17%;
     height: 7%;
     left: 40%;
-    top: 43vw;
+    top: 40vw;
     font-size: 2vw;
     background-color: rgb(28, 213, 185);
     border: 0.3vw solid white;

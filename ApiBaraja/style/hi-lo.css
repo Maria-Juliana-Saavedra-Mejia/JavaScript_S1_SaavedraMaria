@@ -40,23 +40,146 @@ body{
     position: absolute;
     width: 25%;
     left: 37%;
-    top: 1%;
-    
 }
 .logo:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+.volver {
+    position: absolute;
+    top: 1vw;
+    width: 3%;
+    right: 4%;
+}
+.volver:hover {
     animation: rotate3d 0.7s;
+}
+.JuegoPoker__ParteEstetica--text2{
+    position: absolute;
+    top: 3vw;
+    right: 3.5%;
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+    animation: pulse 1.5s infinite;
+    text-align: center;
+    width: 5vw;
+}
+.JuegoPoker__ParteEstetica--cartas{
+    position: absolute;
+    font-size: 3vw;
+    color: white;
+    font-weight: 600;
+    top: 10vw;
+    left: 9%;
+}
+.JuegoPoker__ParteEstetica--p1{
+    position: absolute;
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    top: 50vw;
+    left: 30%;
+    width: 10%;
+    text-align: center;
+}
+.JuegoPoker__ParteEstetica--p2{
+    position: absolute;
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    top: 50vw;
+    left: 60%;
+    width: 10%;
+    text-align: center;
 }
 .JuegoPoker__CasillaPuntos{
     position: absolute;
-    background-color: white;
-    top: 5vw;
-    width: 25%;
-    height: 40%;
+    background-color: rgb(28, 213, 185);
+    border: 0.3vw solid white;
+    top: 8vw;
+    width: 23%;
+    height: 37%;
     left: 70%;
-    border: 0.5vw solid black;
     align-items: center;
-
     display: grid;
     grid-template-columns: 1fr,1fr;
     grid-template-rows: 1fr,1fr,1fr;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.JuegoPoker__CasillaPuntos--titulo{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+}
+
+.JuegoPoker__CasillaPuntos--j1{
+    grid-column-start:1 ;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.JuegoPoker__CasillaPuntos--j2{
+    grid-column-start:1 ;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.JuegoPoker__CasillaPuntos--puntos1{
+    grid-column-start:2 ;
+    grid-column-end: 2; 
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.JuegoPoker__CasillaPuntos--puntos2{
+    grid-column-start:2 ;
+    grid-column-end: 2; 
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.JuegoPoker__botones--mas{
+    position: absolute;
+    width: 17%;
+    height: 7%;
+    left: 5%;
+    top: 45vw;
+    font-size: 2vw;
+    background-color: rgb(28, 213, 185);
+    border: 0.3vw solid white;
+    border-top-left-radius:  0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.JuegoPoker__botones--mas:hover {
+    box-shadow: inset 0 100px 0 0 white;
+  }
+.JuegoPoker__botones--menos{
+    position: absolute;
+    width: 17%;
+    height: 7%;
+    left: 5%;
+    top: 40vw;
+    font-size: 2vw;
+    background-color: rgb(28, 213, 185);
+    border: 0.3vw solid white;
+    border-top-left-radius:  0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.JuegoPoker__botones--menos:hover {
+    box-shadow: inset 0 100px 0 0 white;
 }
