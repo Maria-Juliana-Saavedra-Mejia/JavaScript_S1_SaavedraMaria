@@ -1,0 +1,33 @@
+body{
+    background-image:  url("../img/pañoVerde.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ayuda{
+    position: absolute;
+    top: 2vw;
+    width: 5%;
+    left: 4%;
+}
+.logo{
+    position: absolute;
+    width: 25%;
+    left: 37%;
+    top: 1%;
+    
+}
+.JuegoPoker__CasillaPuntos{
+    position: absolute;
+    background-color: white;
+    top: 5vw;
+    width: 25%;
+    height: 40%;
+    left: 70%;
+    border: 0.5vw solid black;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    grid-template-rows: 1fr,1fr,1fr;
+}
