@@ -79,21 +79,12 @@ body{
     font-size: 2vw;
     color: white;
     font-weight: 600;
-    top: 50vw;
-    left: 30%;
+    top: 45vw;
+    left: 45%;
     width: 10%;
     text-align: center;
 }
-.JuegoPoker__ParteEstetica--p2{
-    position: absolute;
-    font-size: 2vw;
-    color: white;
-    font-weight: 600;
-    top: 50vw;
-    left: 60%;
-    width: 10%;
-    text-align: center;
-}
+
 .JuegoPoker__CasillaPuntos{
     position: absolute;
     background-color: rgb(28, 213, 185);
@@ -147,7 +138,7 @@ body{
     position: absolute;
     width: 17%;
     height: 7%;
-    left: 5%;
+    left: 6%;
     top: 45vw;
     font-size: 2vw;
     background-color: rgb(28, 213, 185);
@@ -167,7 +158,7 @@ body{
     position: absolute;
     width: 17%;
     height: 7%;
-    left: 5%;
+    left: 6%;
     top: 40vw;
     font-size: 2vw;
     background-color: rgb(28, 213, 185);
@@ -182,4 +173,10 @@ body{
 }
 .JuegoPoker__botones--menos:hover {
     box-shadow: inset 0 100px 0 0 white;
+}
+.img_Cards{
+    position: absolute;
+    top: 15vw;
+    width: 15%;
+    left: 6.5%;
 }
