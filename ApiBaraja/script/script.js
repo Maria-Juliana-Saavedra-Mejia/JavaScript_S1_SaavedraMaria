@@ -32,6 +32,6 @@ subiendo.addEventListener("click",function(){
 })
 
 const bajando= document.getElementById("JuegoPoker__botones--menos");
-Bajando.addEventListener("click",function(){
+bajando.addEventListener("click",function(){
     cards()
 })
