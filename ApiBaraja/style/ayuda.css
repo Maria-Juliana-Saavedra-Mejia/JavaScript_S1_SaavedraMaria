@@ -96,12 +96,12 @@ body {
 .explicacion{
     position: absolute;
     color: white;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     width: 37%;
     text-align: left;
     font-weight: 600;
     right: 5%;
-    top: 24vw;
+    top: 25vw;
 }
 .puntos{
     position: absolute;

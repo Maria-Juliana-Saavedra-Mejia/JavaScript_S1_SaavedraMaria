@@ -57,6 +57,7 @@ body{
     font-size: 2vw;
     background-color: rgb(28, 213, 185);
     border: 0.3vw solid white;
+    color: black;
     border-top-left-radius:  0.5vw;
     border-top-right-radius: 0.5vw;
     border-bottom-left-radius: 0.5vw;
