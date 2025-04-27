@@ -38,8 +38,9 @@ body{
 
 .logo{
     position: absolute;
-    width: 25%;
-    left: 37%;
+    width: 28%;
+    left: 2%;
+    top: 10vw;
 }
 .logo:hover {
     -webkit-transform: rotateY(180deg);
@@ -68,11 +69,11 @@ body{
 }
 .JuegoPoker__ParteEstetica--cartas{
     position: absolute;
-    font-size: 3vw;
+    font-size: 4vw;
     color: white;
     font-weight: 600;
-    top: 10vw;
-    left: 9%;
+    top: 5vw;
+    left: 40%;
 }
 .JuegoPoker__ParteEstetica--p1{
     position: absolute;
@@ -87,11 +88,11 @@ body{
 .JuegoPoker__ParteEstetica--puntos{
     position: absolute;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
     top: 45vw;
-    left: 66%;
+    left: 80%;
     width: 10%;
     text-align: center;
 }
@@ -186,17 +187,18 @@ body{
 }
 .img_Cards{
     position: absolute;
-    top: 15vw;
-    width: 15%;
-    left: 6.5%;
+    top: 13vw;
+    width: 25%;
+    left: 35%;
 }
+
 .numeros{
     position: absolute;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
     font-weight: 600;
     top: 38vw; 
-    left: 66%;
+    left: 80%;
     width: 10%;
     text-align: center;
 }
