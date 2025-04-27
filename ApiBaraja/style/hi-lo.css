@@ -84,7 +84,16 @@ body{
     width: 10%;
     text-align: center;
 }
-
+.JuegoPoker__ParteEstetica--puntos{
+    position: absolute;
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    top: 45vw;
+    left: 66%;
+    width: 10%;
+    text-align: center;
+}
 .JuegoPoker__CasillaPuntos{
     position: absolute;
     background-color: rgb(28, 213, 185);
@@ -179,4 +188,12 @@ body{
     top: 15vw;
     width: 15%;
     left: 6.5%;
+}
+.numeros{
+    position: absolute;
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    top: 38vw; 
+    left: 70%;
 }
