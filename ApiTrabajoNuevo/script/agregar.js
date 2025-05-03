@@ -49,12 +49,6 @@ async function agregarAnimal() {
             <p>Se ha agregado el animal: ${respuesta.name}</p>
         `;
         console.log(`¡Animal agregado correctamente! Se ha agregado: ${respuesta.name}`);
-            
-        // Dejar limpios los espacios a llenar
-        document.querySelector("#name").value = "";
-        document.querySelector("#image").value = "";
-        document.querySelector("#scientific-name").value = "";
-        document.querySelector("#Description").value = "";
         
     } catch (error) {
         mostrarMensaje("Error al intentar agregar el animal", true);
@@ -65,4 +59,8 @@ async function agregarAnimal() {
 const botonEnviar = document.getElementById("ENVIAR");
 botonEnviar.addEventListener("click", function() {
     agregarAnimal();
+    document.querySelector("#name").value = "";
+    document.querySelector("#image").value = "";
+    document.querySelector("#scientific-name").value = "";
+    document.querySelector("#Description").value = "";
 });
