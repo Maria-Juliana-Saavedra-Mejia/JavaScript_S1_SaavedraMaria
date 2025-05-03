@@ -43,7 +43,7 @@ async function agregarAnimal() {
         const respuesta = await response.json();
         console.log("Animal agregado:", respuesta);
             
-        let mostrarInfo = document.getElementById('infoApi');
+        let mostrarInfo = document.getElementById('infoApi2');
         mostrarInfo.innerHTML = `
             <h3 class="name">¡Animal agregado correctamente!</h3>
             <p>Se ha agregado el animal: ${respuesta.name}</p>
