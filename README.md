@@ -11,8 +11,9 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 | DIA5 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia5|
 | DIA11 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia11|
 | DIA11_2 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia11_2|
+| DIA12 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/Dia12|
 | DIA REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/DiaRepaso1|
-| API REPASO1 |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRepaso|
+| API REPASO |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRepaso|
 | API Baraja |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiBaraja|
 | API CRUD |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiTrabajoNuevo|
 
@@ -40,6 +41,9 @@ Se encuentra la explicacion de Http Request.
 
 > [**Dia11_2**]
 Se encuentra la explicacion de Arreglos . 
+
+> [**Dia12**]
+Se encuentra la explicacion de CRUD con JavaScript. 
 
 > [**Dia-Repaso**]
 Se encuentran la explicacion de AXIOS. 

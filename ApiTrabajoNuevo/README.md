@@ -6,6 +6,8 @@ En este repositorio se encuentra el trabajo de Javascript - CRUD creado por la C
 |--|--|
 | INDEX |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/blob/master/ApiTrabajoNuevo/index.html|
 | SCRIPT |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiTrabajoNuevo/script|
+| HTML |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiTrabajoNuevo/html|
+| STYLE |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiTrabajoNuevo/style|
 | LINK |https://maria-juliana-saavedra-mejia.github.io/JavaScript_S1_SaavedraMaria/ApiTrabajoNuevo/|
 
 
@@ -19,4 +21,10 @@ Para el correcto funcionamiento del presente se requiere la instalación de alg�
 Se encuentra el código fuente en HTML.
 
 > [**Script**]
-Se encuentra el codigo de JavaScript.
+Se encuentraN los codigos de JavaScript.
+
+> [**Style**]
+Se encuentra los codigos de CSS.
+
+> [**Html**]
+Se encuentra los codigos de html.
