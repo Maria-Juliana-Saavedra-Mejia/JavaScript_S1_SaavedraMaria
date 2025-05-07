@@ -14,220 +14,18 @@
     font-family: 'regular';
     src: url(../fonds/PT\ Root\ UI_Regular.ttf);
 }
-
+h1{
+    font-size: 3vw;
+    font-family: 'regular';
+    text-align: center;
+}
 body{
     align-items: center;
+    text-align: center;
 }
-p{
-    position: absolute;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-}
-
-h3{
-    font-size: 1.3vw;
-    font-family: 'regular';
-}
-h1{
-    font-size: 1.8vw;
-    font-family: 'regular';
-}
-.caja{
-    position: absolute;
-    top: 1vw;
-    border: 0.2vw solid grey;
-    height: 5vw;
-    width: 75vw;
-    left: 10vw;
-    border-top-left-radius:  1vw;
-    border-top-right-radius: 1vw;
-    background-color: rgb(233, 233, 233);
-}
-.formulario{
-    position: absolute;
-    top: 6.1vw;
-    border: 0.2vw solid grey;
-    height:40vw;
-    width: 71vw;
-    left: 10vw;
-    border-bottom-left-radius: 1vw;
-    border-bottom-right-radius: 1vw;  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    padding: 2vw;
-}
-.gestion{
-    grid-column-end: 3;
-    grid-column-start: 1;
-    grid-row-end: 1;
-    grid-row-start: 1;
-}
-
-.nombre{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    grid-row-start: 2;
-}
-.nombreActor{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 2;
-    grid-row-start: 2;
-}
-.edadActor{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 4;
-    grid-row-start: 4;
-}
-.ubicacion{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 4;
-    grid-row-start: 4;
-}
-.poster{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 6;
-    grid-row-start: 6;
-}
-.fecha{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 6;
-    grid-row-start: 6;
-}
-.productora{
-    grid-column-end: 3;
-    grid-column-start: 1;
-    grid-row-end: 8;
-    grid-row-start: 8;
-}
-
-
-
-.nombrei{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 3;
-    grid-row-start: 3;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.nombreActori{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 3;
-    grid-row-start: 3;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.edadActori{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 5;
-    grid-row-start: 5;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.ubicacioni{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 5;
-    grid-row-start: 5;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.posteri{
-    grid-column-end: 1;
-    grid-column-start: 1;
-    grid-row-end: 7;
-    grid-row-start: 7;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.fechai{
-    grid-column-end: 2;
-    grid-column-start: 2;
-    grid-row-end: 7;
-    grid-row-start: 7;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 30vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.productorai{
-    grid-column-end: 3;
-    grid-column-start: 1;
-    grid-row-end: 9;
-    grid-row-start: 9;
-    font-size: 1.6vw;
-    font-family: 'regular';
-    left: 2vw;
-    width: 66vw;
-    height: 3vw;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.Botones{
-    grid-column-end: 1;
-    grid-column-start: 3;
-    grid-row-end:10;
-    grid-row-start: 10;
-    border-top-left-radius:  0.5vw;
-    border-top-right-radius: 0.5vw;
-    border-bottom-left-radius: 0.5vw;
-    border-bottom-right-radius: 0.5vw;
-}
-.nuevo{
-    height: 3vw;
-    width: 10vw;
+.ver{
+    height: 4vw;
+    width: 8vw;
     font-size: 1.3vw;
     font-family: 'regular';
     border-top-left-radius:  0.5vw;
@@ -238,9 +36,9 @@ h1{
     color: white;
     border-color: black;
 }
-.Guardar{
-    height: 3vw;
-    width: 10vw;
+.eliminar{
+    height: 4vw;
+    width: 8vw;
     font-size: 1.3vw;
     font-family: 'regular';
     border-top-left-radius:  0.5vw;
@@ -251,8 +49,8 @@ h1{
     color: white;
     border-color: black;
 }
-.cancelar{
-    height: 3vw;
+.agregar{
+    height: 4vw;
     width: 8vw;
     font-size: 1.3vw;
     font-family: 'regular';
@@ -263,4 +61,21 @@ h1{
     background-color: red;
     color: white;
     border-color: black;
+}
+.editar{
+    height: 4vw;
+    width: 8vw;
+    font-size: 1.3vw;
+    font-family: 'regular';
+    border-top-left-radius:  0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+
+.fondo{
+    width: 100vh;
 }
