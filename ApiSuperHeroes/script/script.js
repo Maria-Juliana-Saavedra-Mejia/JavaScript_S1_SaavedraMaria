@@ -148,9 +148,9 @@ async function guardarHeroe() {
     }
 
     const datosHeroe = {
-        personaje: nombrepersonaje,
-        actor: nombreactor,
-        edad: edadactor,
+        nombre_personaje: nombrepersonaje,
+        nombre_actor: nombreactor,
+        edad_actor: edadactor,
         ubicacion: ubicacion,
         poster: poster,
         fecha: date,
