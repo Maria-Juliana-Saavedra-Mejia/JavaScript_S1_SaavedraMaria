@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PacoPets</title>
+    <title>PacoPets - Adopción de Mascotas</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.svg">
     <link rel="stylesheet" href="./style/style.css"/>
 </head>
 <body>
     <header class="BarraSuperior">
-        <img class="logo" src="./img/logo.svg"/>
-        <div>
-            <img class="Huella" src="./img/huella.svg"/>
-            <p>Sobre Nosotros</p>
-        </div>
-        <div>
-            <img class="Estrella" src="./img/estrella.svg"/>
-            <p>Favoritos</p>
-        </div>
-        <div>
-            <img class="mas" src="./img/mas.svg"/>
-            <p>Información</p>
-        </div>
-        <div>
-            <img class="corazón" src="./img/corazon.svg"/>
-            <p>Realizar Donación</p>
-        </div>
+        <img class="logo" src="./img/logo.svg" />
+        <a href="./html/sobreNosotros.html"><div>
+            <img class="Huella" src="./img/huella.svg" />
+            <p class="sobre">Sobre Nosotros</p>
+        </div></a>
+        <a href="./html/favoritos.html"><div>
+            <img class="Estrella" src="./img/estrella.svg" />
+            <p class="fav">Favoritos</p>
+        </div></a>
+        <a href="./html/informacion.html"><div>
+            <img class="mas" src="./img/mas.svg" />
+            <p class="inf">Información</p>
+        </div></a>
+        <a href="./html/realizar.html"><div>
+            <img class="corazon" src="./img/corazon.svg" />
+            <p class="realizar">Realizar Donación</p>
+        </div></a>
     </header>
-    <div>
-        <h1>Adopta Amor, Cambia una Vida</h1>
-        <p>¡Dales una oportunidad a esos peluditos 
-            que tanto lo necesitan! aqui , cada animal
-             tiene una historia que contar, pero todos 
-             comparten un deseo: encontrar un hogar lleno
-              de amor! 
-            </p>
-        <a><button class="VerMascota">Ver Mascotas</button></a>
-        <img class="imagenAnimales" src="./img/imagenanimales.svg"/>
+
+    <div class="content animal-section">
+        <div class="text-section">
+            <h1>Adopta Amor, Cambia una Vida</h1>
+            <p class="description">¡Dales una oportunidad a esos peluditos que tanto lo necesitan! Aquí, cada animal tiene una historia que contar, pero todos comparten un deseo: encontrar un hogar lleno de amor!</p>
+            <a href="./html/mascotas.html"><button class="VerMascota">Ver Mascotas</button></a>
+        </div>
+        <img class="imagenAnimales" src="./img/imagenanimales.svg" alt="Mascotas en adopción"/>
     </div>
-
-
 </body>
 </html>

@@ -16,36 +16,6 @@
     left: 6vw;
     top: 0.5vw;
 }
-.imagenAnimales{
-    position: absolute;
-    width: 35vw;
-    left: 59vw;
-    top: 15vw;
-    border: 1vw solid #5696df;
-    border-radius: 19vw;
-    box-sizing: border-box;
-    background-clip: content-box;
-
-}
-.text-section p{
-    color: black;
-    position: absolute;
-    font-family: 'texto';
-    font-size: 1.8vw;
-    width: 38vw;
-    top: 25vw;
-    left: 10vw;
-}
-.text-section h1{
-    color: black;
-    position: absolute;
-    font-family: 'titulo';
-    font-size: 3vw;
-    top: 15vw;
-    left: 11vw;
-    width: 30vw;
-    text-align: center;
-}
 .Huella{
     position: absolute;
     width: 2vw;
@@ -107,20 +77,4 @@
     font-size: 1.5vw;
     text-align: center;
     width: 5vw;
-}
-.VerMascota{
-    position: absolute;
-    color: white;
-    background-color: #5696df;
-    position: absolute;
-    font-family: 'barra';
-    font-size: 1.5vw;
-    text-align: center;
-    top: 40vw;
-    left: 18vw;
-    width: 18vw;
-    height: 4vw;
-    border: 0;   
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 
-       0 6px 10px rgba(86, 150, 223, 0.3);
 }
