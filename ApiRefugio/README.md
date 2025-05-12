@@ -10,6 +10,7 @@ En este repositorio se encuentra el trabajo de Javascript - Eventos relizado por
 | Script |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRefugio/script|
 | Style |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/tree/master/ApiRefugio/style|
 | Index |https://github.com/Maria-Juliana-Saavedra-Mejia/JavaScript_S1_SaavedraMaria/blob/master/ApiRefugio/index.html|
+| Figma |https://www.figma.com/design/nT6pWEpjfcoQH5fGYCyEY4/PacoPets?node-id=0-1&p=f&t=TALSEIpVOk66Elhx-0|
 | Link Pagina |https://maria-juliana-saavedra-mejia.github.io/JavaScript_S1_SaavedraMaria/ApiRefugio/|
 
 
