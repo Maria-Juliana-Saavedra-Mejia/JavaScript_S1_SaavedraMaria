@@ -85,16 +85,16 @@
     font-size: 3.5vw;
     width: 38vw;
     top: 10vw;
-    left: 39vw;
+    left: 37vw;
 }
 .texto{
     color: black;
     position: absolute;
     font-family: 'texto';
     font-size: 2vw;
-    width: 65vw;
+    width: 90vw;
     top: 19vw;
-    left: 19vw;
+    left: 10vw;
 }
 .volver{
     position: absolute;
@@ -102,45 +102,22 @@
     background-color: #5696df;
     position: absolute;
     font-family: 'barra';
-    font-size: 1.5vw;
+    font-size:2vw;
     text-align: center;
-    top: 50vw;
-    left: 85vw;
-    width: 13vw;
-    height: 3vw;
+    top: 51vw;
+    left: 44vw;
+    width: 16vw;
+    height: 4vw;
     border: 0;   
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 
        0 6px 10px rgba(86, 150, 223, 0.3);
 }
-.huellasazules1{
-    position: absolute;
-    width: 15vw;
-    top: 30vw;
-    left: 5vw;
-}
-.huellasazules2{
-    position: absolute;
-    width: 15vw;
-    top: 12vw;
-    left: 5vw;
-}
-.huellasnegras1{
-    position: absolute;
-    width: 15vw;
-    top: 28vw;
-    left: 84vw;
-}
-.huellasnegras2{
-    position: absolute;
-    width: 15vw;
-    top: 12vw;
-    left: 84vw;
-}
+
 .lineainferior{
     position: absolute;
     width: 12vw;
     height: 0.2vw;
     background-color: black;
     top: 9vw;
-    left: 22vw;
+    left: 85vw;
 }
