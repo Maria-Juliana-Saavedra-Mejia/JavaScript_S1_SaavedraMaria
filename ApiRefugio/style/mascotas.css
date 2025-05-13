@@ -89,6 +89,18 @@
     text-align: center;
 }
 .PetImages{
-    width: 20vw;
+    width: 15vw;
+    height: 15vw;
+}
+.ContenedorAnimales{
+    left: 20vw;
+    width: 30vw;
     height: 20vw;
+    border: 0.2vw solid #5696df;
+    display: flex;
+}
+.pets_container{
+    position: absolute;
+    top: 10%;
+    display: flex;
 }

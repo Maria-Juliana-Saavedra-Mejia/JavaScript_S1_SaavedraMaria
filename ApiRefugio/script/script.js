@@ -27,11 +27,25 @@ function almacenamiento(){
         .then(data =>{
             for (i=0;i<data.animals.length;i++){
                 let mascotas = data.animals[i]
-                let imagesrc = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small || '';
+                let imagesrc = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small || 'https://media.istockphoto.com/id/1296353202/es/foto/grupo-de-mascotas-posando-alrededor-de-un-collie-fronterizo-perro-gato-hur%C3%B3n-conejo-p%C3%A1jaro-pez.jpg?s=612x612&w=0&k=20&c=L2IMPfImJLLGeXTYUIpoFJ9JrnOjHvxgzr-sYbtAZaQ=';
+                let age= mascotas.age
+                let gender= mascotas.gender
+                let size=mascotas.size
+                let ubicacion=mascotas.contact.address.address1
+                let country=mascotas.contact.address.country
+                let city=mascotas.contact.address.city
+                let raza=mascotas.breeds.primary
+                let especie= mascotas.species
                 cpets.innerHTML += `
                 <div class="ContenedorAnimales">
+                  <img src="../img/estrellaVacia.svg" class="simboloMas">
+                  <img src="../img/mas.svg" class="simboloEstrella">
                   <img class="PetImages" src="${imagesrc}"/>
-                  <h1 class="PetName">Name: ${mascotas.name}</h1>
+                  <h1 class="PetName">Nombre: ${mascotas.name}</h1>
+                  <h1 class="age">Edad y Tamaño: ${age}, ${size}</h1>
+                  <h1 class="location">Ubicación: ${ubicacion}, ${country}, ${city}</h1>
+                  <h1 class="breed">Especie, Genero y Raza: ${especie}, ${gender}, ${raza}</h1>
+                  
                 </div>
                 `;
             }
