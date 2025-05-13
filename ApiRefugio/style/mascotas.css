@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'barra';
+    src: url(../fond/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../fond/SAGONABOOKBOLD.TTF);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(../fond/Karla-Regular.ttf);
+}
+.logo{
+    position: absolute;
+    width: 11vw;
+    left: 6vw;
+    top: 0.5vw;
+}
+.Huella{
+    position: absolute;
+    width: 2vw;
+    left: 22vw;
+    top: 4.5vw;
+}
+.Estrella{
+    position: absolute;
+    width: 2.5vw;
+    left: 40vw;
+    top: 4.6vw;
+}
+.mas{
+    position: absolute;
+    width: 2.5vw;
+    left: 62vw;
+    top: 4.6vw;
+}
+.corazon{
+    position: absolute;
+    width: 2vw;
+    left: 84vw;
+    top: 4.5vw;
+}
+.sobre{
+    color: black;
+    position: absolute;
+    font-family: 'barra';
+    top: 2.3vw;
+    left: 25vw;
+    font-size: 1.5vw;
+    text-align: center;
+    width: 5vw;
+}
+.fav{
+    color: black;
+    position: absolute;
+    font-family: 'barra';
+    top: 3.2vw;
+    left: 44vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.inf{
+    color: black;
+    position: absolute;
+    font-family: 'barra';
+    top: 3.2vw;
+    left: 65vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.realizar{
+    color: black;
+    position: absolute;
+    font-family: 'barra';
+    top: 2.3vw;
+    left: 88vw;
+    font-size: 1.5vw;
+    text-align: center;
+    width: 5vw;
+}
+.titulo{
+    color: #5696df;
+    position: absolute;
+    font-family: 'titulo';
+    font-size: 4vw;
+    width: 38vw;
+    top: 10vw;
+    left: 33vw;
+    text-align: center;
+}
