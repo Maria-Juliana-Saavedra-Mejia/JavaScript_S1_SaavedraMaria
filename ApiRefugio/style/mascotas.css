@@ -104,3 +104,10 @@
     top: 10%;
     display: flex;
 }
+.simboloMas{
+    width: 2vw;    
+}
+.simboloEstrella{
+    top: 1vw;
+    width: 2vw;
+}
