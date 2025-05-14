@@ -88,26 +88,74 @@
     left: 33vw;
     text-align: center;
 }
-.PetImages{
-    width: 15vw;
-    height: 15vw;
-}
+
+
+
+
 .ContenedorAnimales{
     left: 20vw;
-    width: 30vw;
-    height: 20vw;
+    height: 19vw;
+    width: 35vw;
     border: 0.2vw solid #5696df;
     display: flex;
+    flex-direction: column;
 }
-.pets_container{
-    position: absolute;
-    top: 10%;
+#pets_container{
+    width: 8vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5vw;
+}
+section {
+    margin-top: 13vmax;
     display: flex;
 }
+.falso{
+    border: 1px solid transparent;
+}
+.filters {
+    margin: 7vw;
+    background-color: white;
+}
 .simboloMas{
+    margin-top: 0vw;
+    margin-left: 32vw;
     width: 2vw;    
 }
 .simboloEstrella{
-    top: 1vw;
+    margin-top: -12vw;
+    margin-left: 32vw;
     width: 2vw;
+}
+.PetImages{
+    width: 13vw;
+    height: 19vw;
+}
+.PetName{
+    font-family: 'texto';
+    font-size: 1.9vw;
+    margin-top: -17vw;
+    margin-left: 13vw;
+    text-align: center;
+    color: #5696df;
+    width: 20vw;
+    text-align: center;
+}
+.age{
+    font-family: 'texto';
+    font-size: 1vw;
+    margin-left: 14vw;
+    width: 23vw;
+}
+.location{
+    font-family: 'texto';
+    font-size: 1vw;
+    margin-left: 14vw;
+    width: 23vw;
+}
+.breed{
+    font-family: 'texto';
+    font-size: 1vw;
+    margin-left: 14vw;
+    width: 20vw;
 }
