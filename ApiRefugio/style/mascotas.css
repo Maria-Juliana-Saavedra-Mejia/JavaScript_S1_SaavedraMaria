@@ -114,7 +114,7 @@ section {
     border: 1px solid transparent;
 }
 .filters {
-    margin: 7vw;
+    margin: 7.5vw;
     background-color: white;
 }
 .simboloMas{
@@ -163,7 +163,7 @@ section {
     position: absolute;
     top: 13vw;
     left: 1vw;
-    width: 20vw;
+    width: 16vw;
     height: 34vw;
     padding: 1vw;
     background-color: #5696df;
