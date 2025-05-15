@@ -159,3 +159,62 @@ section {
     margin-left: 14vw;
     width: 20vw;
 }
+.fomulario_filtros{
+    position: absolute;
+    top: 13vw;
+    left: 1vw;
+    width: 20vw;
+    height: 34vw;
+    padding: 1vw;
+    background-color: #5696df;
+    border-top-left-radius:2vw ;
+    border-top-right-radius:2vw;
+    border-bottom-left-radius:2vw ;
+    border-bottom-right-radius: 2vw;
+}
+
+.volver{
+    position: absolute;
+    color: white;
+    background-color: #5696df;
+    position: absolute;
+    font-family: 'barra';
+    font-size: 1.5vw;
+    text-align: center;
+    top: 52vw;
+    left: 4.5vw;
+    width: 13vw;
+    height: 3vw;
+    border: 0;   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 
+       0 6px 10px rgba(86, 150, 223, 0.3);
+}
+.Especie{
+ background-color:#5696df;
+ left: 1vw;
+ color: white;
+ font-family: 'texto';
+ font-size: 1.5vw;
+ border: 1vw solid transparent;
+}
+.Edad{
+ background-color:#5696df;
+ color: white;
+ font-family: 'texto';
+ font-size: 1.5vw;
+ border: 1vw solid transparent;
+}
+.ubicacion{
+ background-color:#5696df;
+ color: white;
+ font-family: 'texto';
+ font-size: 1.5vw;
+ border: 0.1vw solid white;
+}
+.fomulario_filtros p{
+ background-color: transparent;
+ color: white;
+ font-family: 'barra';
+ font-size: 1.5vw;
+ border: 1vw solid transparent;
+}

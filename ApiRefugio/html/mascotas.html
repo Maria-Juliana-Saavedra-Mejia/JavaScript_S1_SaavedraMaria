@@ -34,21 +34,27 @@
         <div id="pets_container"></div>
     </section>
     <div class="fomulario_filtros">
-        <select name="Especie">
+        <p>Especie</p>
+        <select class="Especie">
+            <option value="N/A"selected>N/A</option>
             <option value="perro">Perro</option>
-            <option value="gato" selected>Gato</option>
+            <option value="gato" >Gato</option>
             <option value="conejo">Conejo</option>
             <option value="aves">Aves</option>
             <option value="otros">Conejo</option>
         </select>
-        <select name="Edad">
+        <p>Edad</p>
+        <select class="Edad">
+             <option value="N/A"selected>N/A</option>
             <option value="perro">Baby</option>
-            <option value="gato" selected>Young</option>
+            <option value="gato">Young</option>
             <option value="conejo">Adult</option>
             <option value="aves">Senior</option>
-
         </select>
+        <p>Ubicación</p>
+        <input type="text" class="ubicacion" placeholder="">
     </div>
+    <a href="../index.html"><button class="volver">Volver</button></a>
 </body>
 <script src="../script/script.js"></script>
 </html>
